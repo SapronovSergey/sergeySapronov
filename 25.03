@@ -1,0 +1,11 @@
+x = input('Введите число:')
+print (type(x))
+y = input('Введите число:')
+print(type(y))
+if x > y:
+    c = x - y
+elif x > y:
+    c = x + y  
+else:
+    c = x 
+    print(c)
